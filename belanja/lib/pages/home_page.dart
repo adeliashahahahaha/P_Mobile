@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:belanja/models/item.dart';
 
-class HomePage extends StatelessWidget {
+class home_page extends StatelessWidget {
   final List<item> items = [
     item(name: 'Sugar', price: 5000, imageUrl: 'images/sugar.jpeg', stock: 10, rating: 8.5),
     item(name: 'Salt', price: 2000, imageUrl: 'images/salt.jpeg', stock: 15, rating: 9.0),
   ];
 
-  HomePage({super.key});
+  home_page({super.key});
 
   @override
   Widget build(BuildContext context) {

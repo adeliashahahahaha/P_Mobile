@@ -10,7 +10,7 @@ void main() {
     routes: [
       GoRoute(
         path: '/',  // Route untuk HomePage
-        builder: (context, state) => HomePage(),
+        builder: (context, state) => home_page(),
       ),
       GoRoute(
         path: '/item',  // Route untuk item_page dengan argument
